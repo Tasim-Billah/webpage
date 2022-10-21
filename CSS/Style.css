@@ -1,0 +1,280 @@
+* { 
+    margin: 0px; 
+    padding: 0px; 
+    border: 0px; 
+    box-sizing: border-box;
+    outline: 0px;
+    font-family: "Titillium Web", sans-serif; 
+    }
+body { 
+
+}
+.container {
+    width: 90%;
+    margin: auto; 
+}
+.row {
+    width: 100%;
+    float: left; 
+}
+section {
+    padding: 100px 0px;
+    text-align: center; 
+}
+p { 
+    font-size: 15px; 
+    font-weight: 300;
+}
+.heading { 
+    font-size: 40px; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    line-height: 40px; 
+    letter-spacing: 2px; 
+}
+.sub-heading { 
+    font-size: 25px; 
+    line-height: 25px; 
+    text-transform: uppercase; 
+    margin: 10px 0px; }
+.underline { 
+    border-top: 5px solid rgba(0, 0, 0, 0.27); 
+    margin: 10px auto; 
+    width: 5%; 
+}
+.writing-part { 
+    margin-bottom: 50px; 
+}
+.col-1 { width: 8.33%; float: left; }
+.col-2 { width: 16.66%; float: left; }
+.col-3 { width: 25%; float: left; }
+.col-4 { width: 33.33%; float: left; }
+.col-5 { width: 41.66%; float: left; }
+.col-6 { width: 50%; float: left; }
+.col-7 { width: 58.33%; float: left; }
+.col-8 { width: 66.66%; float: left; }
+.col-9 { width: 75%; float: left; }
+.col-10 { width: 83.33%; float: left; }
+.col-11 { width: 91.66%; float: left; }
+.col-12 { width: 100%; float: left; }
+header {
+    background-color: rgb(87, 80, 156); 
+}
+nav { 
+    padding: 10px 0px; 
+}
+.logo-part { 
+    padding: 10px 0px; 
+}
+.menu-part { 
+
+}
+.menu-part ul { 
+    text-align: right; 
+    padding: 13px; 
+}
+.menu-part li { 
+    list-style: none; 
+    display: inline-block; 
+    margin: 0px 10px; 
+    padding: 7px; 
+}
+.menu-part li:hover { 
+    background-color: rgba(0, 0, 0, 0.26); 
+    border-radius: 5%; 
+    transition: all 0.5s ease-in-out 0s; 
+}
+.menu-part li a { 
+    font-size: 20px; 
+    line-height: 20px; 
+    font-weight: 400; 
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+    text-transform: uppercase; 
+}
+.hero-part { 
+    text-align: center; 
+    padding: 150px 100px; 
+}
+.hero-part h1 { 
+    font-size: 50px; 
+    line-height: 50px; 
+    color: white; 
+}
+.hero-part button { 
+    background-color: rgb(235, 125, 75); 
+    color: rgb(255, 255, 255); 
+    padding: 10px; 
+    font-size: 20px; 
+    font-weight: 500; 
+    text-transform: uppercase; 
+    width: 200px; 
+    margin-top: 40px; 
+}
+#service { 
+    background-color: rgb(23, 194, 164); 
+    color: white; 
+}
+.service-box { 
+    padding: 0px 25px; 
+}
+.service-box img { 
+    height: 150px; 
+}
+#team { 
+    background-color: rgb(231, 241, 248); 
+}
+.des { 
+    color: rgb(48, 186, 231); 
+    font-size: 17px; 
+    font-weight: 400; 
+}
+.team-icon { 
+    margin-top: 15px; 
+}
+.team-icon i { 
+    color: rgb(255, 255, 255); 
+    background: rgb(161, 197, 186); 
+    padding: 10px; margin: 0px 5px; 
+    border-radius: 50%; 
+    width: 40px; 
+}
+#portfolio { 
+    background-color: #ffdd99;
+}
+.port-menu-part {
+padding:0px 0px 50px 0px;
+}
+.port-menu-part ul {
+    text-align: center;
+    padding: 13px;
+}
+.port-menu-part li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 7px;
+    background-color: #ebc985;
+    border-radius: 10%;
+}
+.port-menu-part li a {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.portfolio-box img{
+    margin-top: 40PX;
+    height: 200px;
+}
+.port-menu-part li:hover{
+    background-color: white;
+    border-radius: 10%;
+    transition: ease-in-out 0.5s;
+}
+.port button{   
+background-color: #17c2a4;    
+color: #fff;   
+padding: 15px;    
+font-size: 25px;   
+font-weight: 500;   
+text-transform: uppercase;  
+width: 300px;    
+margin-top: 55px;
+}
+#about{
+    background-color: #d74680;
+}
+.about-box{
+    padding: 0px 25px; 
+}
+.about-box img{
+    margin-top: 40px;
+}
+#contact{
+    background-color: #3c5499;
+}
+.id-part{
+
+padding: 20px;
+}
+.id-part input{
+    background-color: #273a71;
+}
+.message-part{
+    padding: 20px;
+}
+.message-part input{
+    width: 52%;
+    height: 150px;
+    background-color: #273a71;
+}
+input{
+    
+width: 25%;
+    
+height: 30px;
+    
+margin: 0px 10px;
+}
+.message button{
+    
+background-color: #30bae7;
+    
+color: #fff;
+    
+padding: 12px;
+    
+font-size: 25px;
+    
+font-weight: 500;
+    
+text-transform: uppercase;
+    
+width: 250px;
+    
+margin-top: 40px;
+}
+footer{
+    background-color: #344b8e;
+}
+.footer-part{
+
+}
+.footer-part ul{
+
+text-align: center;
+
+padding: 15px;
+}
+.footer-part li{
+    
+list-style: none;
+    
+display: inline-block;
+    
+margin: 10px 20px;
+    
+padding: 10px;
+}
+.footer-part li:hover{
+    background-color: #30bae7;
+    border-radius: 10%;
+    transition: ease-in-out 0.7.5s;
+}
+.footer-part li a{
+
+font-size: 25px;
+
+line-height: 25px;
+
+font-weight: 500;
+
+color: #fff;
+
+text-decoration: none;
+
+text-transform: capitalize;
+}
